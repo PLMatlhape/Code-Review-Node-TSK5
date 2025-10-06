@@ -1,0 +1,46 @@
+{
+  "name": "code-review-node-tsk5",
+  "version": "1.0.0",
+  "description": "Collaborative Code Review Platform API",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLMatlhape/Code-Review-Node-TSK5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PLMatlhape/Code-Review-Node-TSK5/issues"
+  },
+  "homepage": "https://github.com/PLMatlhape/Code-Review-Node-TSK5#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.18.8",
+    "@types/pg": "^8.15.5",
+    "@types/ws": "^8.18.1",
+    "axios": "^1.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
